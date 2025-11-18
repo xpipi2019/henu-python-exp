@@ -1,5 +1,2 @@
-def add(x, y=2):
-    return x + y
-
-
-print(add(3))
+g = lambda x, y=3, z=5: x + y + z
+print(g(2))
